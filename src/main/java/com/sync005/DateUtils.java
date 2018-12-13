@@ -9,9 +9,6 @@ import java.util.*;
 import java.util.regex.Pattern;
 
 /**
- * 创建用户：杨辽
- * 创建时间：2016-07-13 16:25:00
- * 描    述：
  */
 public class DateUtils {
     public static final String yyyy_MM_dd_HH_mm_ss = "yyyy-MM-dd HH:mm:ss";
@@ -259,9 +256,6 @@ public class DateUtils {
     public static int getHour() {
         return Calendar.getInstance().get(Calendar.HOUR_OF_DAY);
     }
-
-
-
 
 
 
